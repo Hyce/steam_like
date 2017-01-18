@@ -76,7 +76,18 @@ include 'header.php';
             <h3 class="page-header">Jeux Possédés</h3>
         </div>
 
-        <div class="col-sm-3 col-xs-6">
+        <div class="col-sm-2 col-xs-6 infosjeu">
+            <a href="#">
+                <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+                <div class="nomdujeu">
+                    Nom du Jeu
+                    <br/>
+                    Type de jeu
+                </div>
+            </a>
+        </div>
+
+        <div class="col-sm-2 col-xs-6 infosjeu">
             <a href="#">
                 <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
                 <div class="nomdujeu">
@@ -85,7 +96,7 @@ include 'header.php';
             </a>
         </div>
 
-        <div class="col-sm-3 col-xs-6">
+        <div class="col-sm-2 col-xs-6 infosjeu">
             <a href="#">
                 <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
                 <div class="nomdujeu">
@@ -94,7 +105,7 @@ include 'header.php';
             </a>
         </div>
 
-        <div class="col-sm-3 col-xs-6">
+        <div class="col-sm-2 col-xs-6 infosjeu">
             <a href="#">
                 <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
                 <div class="nomdujeu">
@@ -102,8 +113,7 @@ include 'header.php';
                 </div>
             </a>
         </div>
-
-        <div class="col-sm-3 col-xs-6">
+        <div class="col-sm-2 col-xs-6 infosjeu">
             <a href="#">
                 <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
                 <div class="nomdujeu">
