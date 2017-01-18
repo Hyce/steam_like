@@ -17,7 +17,7 @@ include 'header.php';
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav" style="float: right;">
                 <li>
                     <a href="#">Acceuil</a>
                 </li>
@@ -51,14 +51,14 @@ include 'header.php';
     <div class="row">
 
         <div class="col-md-4">
-            <img class="img-responsive" src="http://placehold.it/300x300" alt="">
+            <img class="img-responsive" src="http://placehold.it/200x200" alt="">
         </div>
 
         <div class="col-md-8">
             <h3>Description</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
             <h3>Infos</h3>
-            <ul style="list-style: none;">
+            <ul style="list-style: none;display: inline;">
                 <li>Nom :</li>
                 <li>Prénom :</li>
                 <li>E-mail :</li>
@@ -79,24 +79,36 @@ include 'header.php';
         <div class="col-sm-3 col-xs-6">
             <a href="#">
                 <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+                <div class="nomdujeu">
+                    Nom du Jeu
+                </div>
             </a>
         </div>
 
         <div class="col-sm-3 col-xs-6">
             <a href="#">
                 <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+                <div class="nomdujeu">
+                    Nom du Jeu
+                </div>
             </a>
         </div>
 
         <div class="col-sm-3 col-xs-6">
             <a href="#">
                 <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+                <div class="nomdujeu">
+                    Nom du Jeu
+                </div>
             </a>
         </div>
 
         <div class="col-sm-3 col-xs-6">
             <a href="#">
                 <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+                <div class="nomdujeu">
+                    Nom du Jeu
+                </div>
             </a>
         </div>
 
