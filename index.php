@@ -48,7 +48,7 @@ include 'header.php';
                                 </div>
                             </div>
                     </div>
-                    <a href="http://www.jquery2dotnet.com" class="btn btn-sm btn-primary btn-block" role="button">
+                    <a href="" class="btn btn-sm btn-primary btn-block" role="button">
                         SUBMIT</a> </form>
                 </div>
             </div>
@@ -71,7 +71,7 @@ include 'header.php';
                                 </div>
                             </div>
                     </div>
-                    <a href="http://www.jquery2dotnet.com" class="btn btn-sm btn-primary btn-block" role="button">
+                    <a href="" class="btn btn-sm btn-primary btn-block" role="button">
                         SUBMIT</a> </form>
                 </div>
             </div>
