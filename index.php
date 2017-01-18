@@ -1,44 +1,85 @@
 <?php
 include 'header.php';
 ?>
-
-    <div class="header">
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Steamy</a>
+<div class="log">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-2 bod">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h5 class="text-center">
+                            SIGN UP</h5>
+                        <form class="form form-signup" role="form">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                    <input type="text" class="form-control" placeholder="Pseudo" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                    <input type="text" class="form-control" placeholder="Nom" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                    <input type="text" class="form-control" placeholder="Prénom" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-gift"></span></span>
+                                    <input type="date" class="form-control" placeholder="Date de Naissance" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                            </span>
+                                    <input type="text" class="form-control" placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                    <input type="password" class="form-control" placeholder="Password" />
+                                </div>
+                            </div>
+                    </div>
+                    <a href="http://www.jquery2dotnet.com" class="btn btn-sm btn-primary btn-block" role="button">
+                        SUBMIT</a> </form>
+                </div>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="../navbar/">Accueil</a></li>
-                    <li><a href="../navbar-static-top/">Profil</a></li>
-                    <li><a href="./">Store</a></li>
-                </ul>
+            <div class="col-md-4 col-md-offset-2 bo">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h5 class="text-center">
+                            LOG IN</h5>
+                        <form class="form form-signup" role="form">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                    <input type="text" class="form-control" placeholder="Pseudo" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                    <input type="password" class="form-control" placeholder="Password" />
+                                </div>
+                            </div>
+                    </div>
+                    <a href="http://www.jquery2dotnet.com" class="btn btn-sm btn-primary btn-block" role="button">
+                        SUBMIT</a> </form>
+                </div>
             </div>
-            <!--/.nav-collapse -->
         </div>
-    </nav>
     </div>
-<div class="contain">
-    <div class="row">
-        <div class="col-md-9">
-            <div>
-                <div class="profile"><img class="media-object" src="http://placehold.it/100x100/" alt="post2">
-            </div>
-        </div>
-        <div class="col-md-3">
 
-        </div>
-    </div>
 </div>
-
+</div>
 <?php
 include 'footer.php';
 ?>
