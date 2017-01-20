@@ -1,64 +1,81 @@
 <?php
 include 'header.php';
 ?>
-<?php
-include 'menu.php'
-?>
+    <div class="log">
 
-<<<<<<< HEAD
-    <div class="header">
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Steamy</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="../navbar/">Accueil</a></li>
-                    <li><a href="../navbar-static-top/">Profil</a></li>
-                    <li><a href="./">Store</a></li>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
-        </div>
-    </nav>
-=======
-
-<!-- Page Content -->
-<div class="container">
-
-    <!-- Portfolio Item Heading -->
-    <div class="row">
-        <div class="col-lg-12">
-            <h1 class="page-header">Profil
-                <small>(Pseudo)</small>
-            </h1>
-        </div>
->>>>>>> master
-    </div>
-<div class="contain">
-    <div class="row">
-        <div class="col-md-9">
-            <div>
-                <div class="profile"><img class="media-object" src="http://placehold.it/100x100/" alt="post2">
-                    <ul>
-                        <li>
-
-                        </li>
-                    </ul>
-            </div>
-        </div>
-        <div class="col-md-3">
-
-        </div>
-    </div>
+        <!-- Navigation -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-2 bod">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <h5 class="text-center">SIGN UP</h5>
+                                <form class="form form-signup" role="form">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                            <input type="text" class="form-control" placeholder="Pseudo" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                            <input type="text" class="form-control" placeholder="Nom" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                            <input type="text" class="form-control" placeholder="Prénom" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-gift"></span></span>
+                                            <input type="date" class="form-control" placeholder="Date de Naissance" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                            </span>
+                                            <input type="text" class="form-control" placeholder="Email" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                            <input type="password" class="form-control" placeholder="Password" />
+                                        </div>
+                                    </div>
+                            </div>
+                            <a href="" class="btn btn-sm btn-primary btn-block" role="button">
+                                SUBMIT</a> </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-offset-2 bo">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <h5 class="text-center">LOG IN</h5>
+                                <form class="form form-signup" role="form">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                            <input type="text" class="form-control" placeholder="Pseudo" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                            <input type="password" class="form-control" placeholder="Password" />
+                                        </div>
+                                    </div>
+                            </div>
+                            <a href="" class="btn btn-sm btn-primary btn-block" role="button">
+                                SUBMIT</a> </form>
+                        </div>
+                    </div>
+                </div>
 </div>
 
 <?php
