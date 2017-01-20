@@ -1,7 +1,11 @@
 <?php
 include 'header.php';
 ?>
+<?php
+include 'menu.php'
+?>
 
+<<<<<<< HEAD
     <div class="header">
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -25,6 +29,19 @@ include 'header.php';
             <!--/.nav-collapse -->
         </div>
     </nav>
+=======
+
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Portfolio Item Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Profil
+                <small>(Pseudo)</small>
+            </h1>
+        </div>
+>>>>>>> master
     </div>
 <div class="contain">
     <div class="row">
