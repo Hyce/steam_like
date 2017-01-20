@@ -19,13 +19,13 @@ include 'header.php';
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav" style="float: right;">
                 <li>
-                    <a href="#">Acceuil</a>
+                    <a href="#">Profil</a>
                 </li>
                 <li>
-                    <a href="#">Store</a>
+                    <a href="./store.php">Store</a>
                 </li>
                 <li>
-                    <a href="#">Panier</a>
+                    <a href="panier.php">Panier</a>
                 </li>
             </ul>
         </div>

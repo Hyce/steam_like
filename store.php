@@ -15,9 +15,16 @@ include 'menu.php'
         <div class="col-md-3">
             <p class="lead">Shop Name</p>
             <div class="list-group">
-                <a href="#" class="list-group-item">Category 1</a>
-                <a href="#" class="list-group-item">Category 2</a>
-                <a href="#" class="list-group-item">Category 3</a>
+                <a href="#" class="list-group-item">Action</a>
+                <a href="#" class="list-group-item">Aventure</a>
+                <a href="#" class="list-group-item">Course Automobile</a>
+                <a href="#" class="list-group-item">Indépendant</a>
+                <a href="#" class="list-group-item">Multijoueur</a>
+                <a href="#" class="list-group-item">Petit Jeu</a>
+                <a href="#" class="list-group-item">RPG</a>
+                <a href="#" class="list-group-item">Simulation</a>
+                <a href="#" class="list-group-item">Sport</a>
+                <a href="#" class="list-group-item">Stratégie</a>
             </div>
         </div>
 
@@ -60,7 +67,7 @@ include 'menu.php'
                     <div class="thumbnail">
                         <img src="img/callof.jpg" alt="">
                         <div class="caption">
-                            <h4 class="pull-right">$24.99</h4>
+                            <h4 class="pull-right">Gratuit</h4>
                             <h4><a href="#">Call Of Duty</a>
                             </h4>
                             <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
@@ -82,7 +89,7 @@ include 'menu.php'
                     <div class="thumbnail">
                         <img src="img/LOL.jpg" alt="">
                         <div class="caption">
-                            <h4 class="pull-right">$64.99</h4>
+                            <h4 class="pull-right">Gratuit</h4>
                             <h4><a href="#">LOL</a>
                             </h4>
                             <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -104,7 +111,7 @@ include 'menu.php'
                     <div class="thumbnail">
                         <img src="img/overwatch.jpg" alt="">
                         <div class="caption">
-                            <h4 class="pull-right">$74.99</h4>
+                            <h4 class="pull-right">Gratuit</h4>
                             <h4><a href="#">Overwatch</a>
                             </h4>
                             <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -126,7 +133,7 @@ include 'menu.php'
                     <div class="thumbnail">
                         <img src="img/rocket_league.jpg" alt="">
                         <div class="caption">
-                            <h4 class="pull-right">$84.99</h4>
+                            <h4 class="pull-right">Gratuit</h4>
                             <h4><a href="#">Rocket League</a>
                             </h4>
                             <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -148,7 +155,7 @@ include 'menu.php'
                     <div class="thumbnail">
                         <img src="img/footballmanager.jpg" alt="">
                         <div class="caption">
-                            <h4 class="pull-right">$94.99</h4>
+                            <h4 class="pull-right">Gratuit</h4>
                             <h4><a href="#">Football Manager</a>
                             </h4>
                             <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -169,7 +176,7 @@ include 'menu.php'
                     <div class="thumbnail">
                         <img src="img/GTA.jpg" alt="">
                         <div class="caption">
-                            <h4 class="pull-right">$94.99</h4>
+                            <h4 class="pull-right">Gratuit</h4>
                             <h4><a href="#">GTA V</a>
                             </h4>
                             <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

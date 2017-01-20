@@ -1,3 +1,7 @@
+<?php
+include 'header.php';
+?>
+
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -9,19 +13,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-
             <a class="navbar-brand" href="#">Steamy</a>
-
         </div>
-
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <form class="navbar-form navbar-left">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Chercher" style="margin-left: 650px">
-                </div>
-            </form>
             <ul class="nav navbar-nav" style="float: right;">
                 <li>
                     <a href="profile.php">Profil</a>
